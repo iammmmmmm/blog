@@ -40,7 +40,7 @@ System.out.println("Hello world!");
 ```
 [超链接](https://www.baidu.com)
 
-![图片](https://www.baidu.com/img/bd_logo1.png)
+![图片](https://cdn.iconscout.com/icon/free/png-256/free-java-26-226003.png?f=webp&w=256)
 
 | 标题 | 标题 |
 |----|----|
