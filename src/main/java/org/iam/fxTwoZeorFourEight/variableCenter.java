@@ -6,9 +6,7 @@ import java.util.HashMap;
  * 可变中心 作为变量中心，用于在不同类之间传递变量
  *
  * @author Iammm
- * @ClassName variableCenter
  * @Time 2024/1/21 11:11
- * @date 2024/01/21
  */
 public class variableCenter {
     /**
