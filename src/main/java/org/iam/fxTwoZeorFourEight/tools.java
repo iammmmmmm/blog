@@ -48,8 +48,7 @@ public class tools {
      * @throws IOException ioexception读取fxml可能引发的错误
      */
     public void changeScene(Stage stage, URL fxml,String Title,int width,int height) throws IOException {
-        //获取语言
-        System.out.println("LANG = " + LANG);
+        // System.out.println("LANG = " + LANG);
         Locale locale = null;
         //判断语言是否支持
         if (Arrays.stream(LANGS).anyMatch(LANG::equalsIgnoreCase)) {

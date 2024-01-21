@@ -19,6 +19,6 @@ public class HelloController {
 
     @FXML
     public void onStartGameClicked() throws IOException {
-        tools.getInstance().changeScene((Stage) variableCenter.get("stage"), this.getClass().getResource("Game.xml"), "FX2048-Gaming", 320, 200);
+        tools.getInstance().changeScene((Stage) variableCenter.get("stage"), this.getClass().getResource("Game.fxml"), "FX2048-Gaming", 320, 200);
     }
 }
