@@ -33,6 +33,7 @@ public class variableCenter {
      *
      * @param key 钥匙
      * @return {@link Object}
+     * @throws IllegalArgumentException 如果key不存在
      */
     public static Object get(String key){
         if(!varList.containsKey(key)){
