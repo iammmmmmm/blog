@@ -1,7 +1,6 @@
 package org.iam.fxTwoZeorFourEight;
 
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * 可变中心 作为变量中心，用于在不同类之间传递变量

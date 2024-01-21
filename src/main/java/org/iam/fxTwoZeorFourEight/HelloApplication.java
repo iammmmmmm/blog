@@ -1,14 +1,9 @@
 package org.iam.fxTwoZeorFourEight;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.ResourceBundle;
 
 public class HelloApplication extends Application {
 

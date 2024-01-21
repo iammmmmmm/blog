@@ -13,16 +13,14 @@ public class HelloController {
     public Button startGame;
     @FXML
     public Button exit;
-    @FXML
-    private Label welcomeText;
 
     @FXML
-    public void onExitClicked(ActionEvent actionEvent) {
+    public void onExitClicked() {
         System.exit(0);
     }
 
     @FXML
-    public void onStartGameClicked(ActionEvent actionEvent) throws IOException {
+    public void onStartGameClicked() throws IOException {
         tools.getInstance().changeScene((Stage) variableCenter.get("stage"), this.getClass().getResource("Game.xml"), "FX2048-Gaming", 320, 200);
     }
 }
