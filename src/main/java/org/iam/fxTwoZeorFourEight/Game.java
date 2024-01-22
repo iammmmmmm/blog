@@ -1,19 +1,19 @@
 package org.iam.fxTwoZeorFourEight;
 
 import javafx.fxml.FXML;
-import javafx.geometry.Pos;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.ColumnConstraints;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.RowConstraints;
+import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Font;
 
 import java.net.URL;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.ResourceBundle;
 
 /**
@@ -21,6 +21,7 @@ import java.util.ResourceBundle;
  * @Time 2024/1/21 11:28
  */
 public class Game {
+    public AnchorPane archPane;
     int oldX = 0;
     int oldY = 0;
     gameIml gm;
@@ -32,6 +33,7 @@ public class Game {
     @FXML // fx:id="canvas"
     private GridPane canvas; // Value injected by FXMLLoader
 
+    //这个似乎并不起效
     @FXML
     void canvasKeyPress(KeyEvent event) {
         System.out.println("test pre");
@@ -74,13 +76,11 @@ public class Game {
     }
 
     void print() {
-        var a= gameIml.getGameCanvas();
+        var a = gameIml.getGameCanvas();
         for (int row = 0; row < a.length; row++) {
             for (int c = 0; c < a[0].length; c++) {
-                var button=new Button(a[row][c]+"");
-                button.setPrefSize(50, 50);
-                button.setAlignment(Pos.CENTER);
-                canvas.add(button, c, row);
+
+                canvas.add(new cellPane(a[row][c]), c, row);
             }
         }
         canvas.autosize();
@@ -92,38 +92,18 @@ public class Game {
         assert canvas != null : "fx:id=\"canvas\" was not injected: check your FXML file 'Game.fxml'.";
         this.gm = gameIml.getInstance();
 
-// 创建列约束
-        ColumnConstraints columnConstraints = new ColumnConstraints();
-        columnConstraints.setPercentWidth(50);
-        columnConstraints.setFillWidth(true);
-
-// 创建行约束
-        RowConstraints rowConstraints = new RowConstraints();
-        rowConstraints.setPercentHeight(50);
-        rowConstraints.setFillHeight(true);
-
-// 将约束添加到GridPane
-        canvas.getColumnConstraints().add(columnConstraints);
-        canvas.getRowConstraints().add(rowConstraints);
-
-        canvas.setGridLinesVisible(true);
-
-        canvas.setMinSize(400, 400);
-        canvas.setPrefSize(400, 400);
-
-        canvas.setVgap(5);
-        canvas.setHgap(5);
-
         print();
     }
 
 }
 
 // TODO 实现游戏逻辑
+//我不想实现了，烂尾.jpg
 class gameIml {
 
     private static final int size = 4;
     private static final gameIml gameIml = new gameIml(size);
+    private static final Random random = new Random();
     private static int[][] gameCanvas;
 
     private gameIml(int size) {
@@ -131,6 +111,7 @@ class gameIml {
         gameCanvas = new int[gameIml.size][size];
         Arrays.stream(gameCanvas).forEach(a -> Arrays.fill(a, 0));
     }
+
 
     public static int[][] getGameCanvas() {
         return gameCanvas;
@@ -142,26 +123,73 @@ class gameIml {
 
     void up() {
 
+        checkGameOver();
     }
 
     void down() {
 
+        checkGameOver();
     }
 
     void left() {
 
+        checkGameOver();
     }
 
     void right() {
 
+
+        checkGameOver();
     }
 
-    void addRandom() {
+    boolean addRandom() {
+        if (gameCanvas[random.nextInt(size)][random.nextInt(size)] == 0)
+            gameCanvas[random.nextInt(size)][random.nextInt(size)] = random.nextInt(2) == 1 ? 4 : 2;
 
+        else return false;
+        return true;
     }
 
     void checkGameOver() {
+        for (int i = 0; i < size; i++) {
+            for (int i1 = 0; i1 < size; i1++) {
+                var temp=gameCanvas[i][i1];
+                if ( temp== 0){
+                    return;
+                }else {
+                        return;
+                    }
+            }
 
+        }
+    }
+
+    private void gameOver() {
+        System.out.println("Game Over");
+        System.exit(0);
+    }
+
+}
+
+class cellPane extends Pane {
+
+    public cellPane(int i) {
+        Rectangle rectangle = new Rectangle(100, 100);
+        rectangle.setFill(Color.WHITE);
+        rectangle.setStroke(Color.BLACK);
+        rectangle.setStrokeWidth(1);
+        getChildren().add(rectangle);
+        Label label = new Label(select(i));
+
+        label.setFont(Font.font(40));
+        label.setLayoutX(30);
+        label.setLayoutY(30);
+        getChildren().add(label);
+    }
+
+    private String select(int i) {
+        return i == 0 ?
+                "" : String.valueOf(i);
     }
 
 }
