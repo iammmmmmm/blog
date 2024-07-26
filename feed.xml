@@ -3,12 +3,54 @@
     <title>iam&#x60;blog</title>
     <link href="https://iammmmmmm.github.io/blog/feed.xml" rel="self" />
     <link href="https://iammmmmmm.github.io/blog" />
-    <updated>2024-07-26T18:56:46+08:00</updated>
+    <updated>2024-07-26T19:22:29+08:00</updated>
     <author>
         <name>ukka</name>
     </author>
     <id>https://iammmmmmm.github.io/blog</id>
 
+    <entry>
+        <title>测试三</title>
+        <author>
+            <name>ukka</name>
+        </author>
+        <link href="https://iammmmmmm.github.io/blog/ce-shi-san.html"/>
+        <id>https://iammmmmmm.github.io/blog/ce-shi-san.html</id>
+            <category term="测试"/>
+
+        <updated>2024-07-26T19:22:29+08:00</updated>
+            <summary>
+                <![CDATA[
+                    测试3
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>测试3</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>测试1</title>
+        <author>
+            <name>ukka</name>
+        </author>
+        <link href="https://iammmmmmm.github.io/blog/ce-shi-1.html"/>
+        <id>https://iammmmmmm.github.io/blog/ce-shi-1.html</id>
+            <category term="测试"/>
+
+        <updated>2024-07-26T19:22:01+08:00</updated>
+            <summary>
+                <![CDATA[
+                    测试1
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>测试1</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>ce shi 2</title>
         <author>
