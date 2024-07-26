@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>iam&#x60;blog</title>
+    <link href="https://iammmmmmm.github.io/blog/feed.xml" rel="self" />
+    <link href="https://iammmmmmm.github.io/blog" />
+    <updated>2024-07-26T18:56:46+08:00</updated>
+    <author>
+        <name>ukka</name>
+    </author>
+    <id>https://iammmmmmm.github.io/blog</id>
+
+    <entry>
+        <title>ce shi 2</title>
+        <author>
+            <name>iam</name>
+        </author>
+        <link href="https://iammmmmmm.github.io/blog/ce-shi-2.html"/>
+        <id>https://iammmmmmm.github.io/blog/ce-shi-2.html</id>
+            <category term="测试"/>
+
+        <updated>2024-07-26T18:56:37+08:00</updated>
+            <summary>
+                <![CDATA[
+                    ce shi 2 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>ce shi 2 </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>齐纳二极管的简单使用</title>
+        <author>
+            <name>iam</name>
+        </author>
+        <link href="https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html"/>
+        <id>https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html</id>
+            <category term="物理"/>
+
+        <updated>2024-07-26T16:43:26+08:00</updated>
+            <summary>
+                <![CDATA[
+                    <h1>什么玩意</h1>
+<p>一种电子元器件用于钳制/控制电压大小</p>
+<h1>原理</h1>
+<p>通过并联进电路，在输入电压大于等于目标电压时导通，因其电气特性，在超过反向击穿电压之后极小的电压变化区间内电流变化极大（几乎无穷），然后多余的电压将会被其消耗掉。</p>
+<h1>例子</h1>
+<figure class="post__image"><img loading="lazy"  src="https://iammmmmmm.github.io/blog/media/posts/4/240726-165113.gif" alt="" width="803" height="557"></figure>
+<p> </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1>什么玩意</h1>
+<p>一种电子元器件用于钳制/控制电压大小</p>
+<h1>原理</h1>
+<p>通过并联进电路，在输入电压大于等于目标电压时导通，因其电气特性，在超过反向击穿电压之后极小的电压变化区间内电流变化极大（几乎无穷），然后多余的电压将会被其消耗掉。</p>
+<h1>例子</h1>
+<figure class="post__image"><img loading="lazy"  src="https://iammmmmmm.github.io/blog/media/posts/4/240726-165113.gif" alt="" width="803" height="557"></figure>
+<p> </p>
+
+<p>模拟软件：Ciruit JS1</p>
+            ]]>
+        </content>
+    </entry>
+</feed>

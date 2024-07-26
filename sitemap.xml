@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://iammmmmmm.github.io/blog/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://iammmmmmm.github.io/blog/</loc>
+</url>
+<url>
+<loc>https://iammmmmmm.github.io/blog/ce-shi-2.html</loc>
+<lastmod>2024-07-26T18:56:46+08:00</lastmod>
+</url>
+<url>
+<loc>https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html</loc>
+<lastmod>2024-07-26T17:04:06+08:00</lastmod>
+<image:image>
+<image:loc>https://iammmmmmm.github.io/blog/media/posts/4/240726-165113.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>

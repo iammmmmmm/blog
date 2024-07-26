@@ -1,0 +1,43 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "iam&#x60;blog",
+    "description": "",
+    "home_page_url": "https://iammmmmmm.github.io/blog",
+    "feed_url": "https://iammmmmmm.github.io/blog/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "ukka"
+    },
+    "items": [
+        {
+            "id": "https://iammmmmmm.github.io/blog/ce-shi-2.html",
+            "url": "https://iammmmmmm.github.io/blog/ce-shi-2.html",
+            "title": "ce shi 2",
+            "summary": "ce shi 2 ",
+            "content_html": "<p>ce shi 2 </p>",
+            "author": {
+                "name": "iam"
+            },
+            "tags": [
+                   "测试"
+            ],
+            "date_published": "2024-07-26T18:56:37+08:00",
+            "date_modified": "2024-07-26T18:56:46+08:00"
+        },
+        {
+            "id": "https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html",
+            "url": "https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html",
+            "title": "齐纳二极管的简单使用",
+            "summary": "<h1>什么玩意</h1>\n<p>一种电子元器件用于钳制/控制电压大小</p>\n<h1>原理</h1>\n<p>通过并联进电路，在输入电压大于等于目标电压时导通，因其电气特性，在超过反向击穿电压之后极小的电压变化区间内电流变化极大（几乎无穷），然后多余的电压将会被其消耗掉。</p>\n<h1>例子</h1>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://iammmmmmm.github.io/blog/media/posts/4/240726-165113.gif\" alt=\"\" width=\"803\" height=\"557\"></figure>\n<p> </p>\n",
+            "content_html": "<h1>什么玩意</h1>\n<p>一种电子元器件用于钳制/控制电压大小</p>\n<h1>原理</h1>\n<p>通过并联进电路，在输入电压大于等于目标电压时导通，因其电气特性，在超过反向击穿电压之后极小的电压变化区间内电流变化极大（几乎无穷），然后多余的电压将会被其消耗掉。</p>\n<h1>例子</h1>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://iammmmmmm.github.io/blog/media/posts/4/240726-165113.gif\" alt=\"\" width=\"803\" height=\"557\"></figure>\n<p> </p>\n\n<p>模拟软件：Ciruit JS1</p>",
+            "author": {
+                "name": "iam"
+            },
+            "tags": [
+                   "物理"
+            ],
+            "date_published": "2024-07-26T16:43:26+08:00",
+            "date_modified": "2024-07-26T17:04:06+08:00"
+        }
+    ]
+}
