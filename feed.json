@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://iammmmmmm.github.io/blog/javafxjiao-cheng.html",
+            "url": "https://iammmmmmm.github.io/blog/javafxjiao-cheng.html",
+            "title": "JavaFx从入门到入土_1",
+            "summary": "<h4>抽象（abstract）：</h4>\n<p>1.  安装javafx环境 </p>\n<p>2.Hello world</p>\n<h1>入门：</h1>\n<h6>安装javafx环境：</h6>\n<p>安装jdk 8（以后简称j8），自行解决本教程就不浪费字符了。</p>\n<h6>Hello world：</h6>\n<ol>\n<li>打开你的ide（本教程使用的是idea）</li>\n<li>新建项目</li>\n<li>设置好项目路径，记得选j8，使用maven作为构建系统</li>\n<li>在src/main/java下新建类Helloworld</li>\n<li>复制下面的代码到新建的类里然后执行（不用研究每一行是干啥的只要不报错能运行就行）：</li>\n</ol>\n<pre class=\"language-java\"><code>public class helloWorld extends Application {\n\n    public static void main(String[] args) {\n        launch(args);\n    }\n    @Override\n    public void start(Stage primaryStage) {\n        StackPane root = new StackPane();\n        Button btn = new Button(\"Hello World\");\n        root.getChildren().add(btn);\n        Scene scene = new Scene(root);\n        primaryStage.setScene(scene);\n        primaryStage.show();\n    }\n}</code></pre>\n<p> </p>\n",
+            "content_html": "<h4>抽象（abstract）：</h4>\n<p>1.  安装javafx环境 </p>\n<p>2.Hello world</p>\n<h1>入门：</h1>\n<h6>安装javafx环境：</h6>\n<p>安装jdk 8（以后简称j8），自行解决本教程就不浪费字符了。</p>\n<h6>Hello world：</h6>\n<ol>\n<li>打开你的ide（本教程使用的是idea）</li>\n<li>新建项目</li>\n<li>设置好项目路径，记得选j8，使用maven作为构建系统</li>\n<li>在src/main/java下新建类Helloworld</li>\n<li>复制下面的代码到新建的类里然后执行（不用研究每一行是干啥的只要不报错能运行就行）：</li>\n</ol>\n<pre class=\"language-java\"><code>public class helloWorld extends Application {\n\n    public static void main(String[] args) {\n        launch(args);\n    }\n    @Override\n    public void start(Stage primaryStage) {\n        StackPane root = new StackPane();\n        Button btn = new Button(\"Hello World\");\n        root.getChildren().add(btn);\n        Scene scene = new Scene(root);\n        primaryStage.setScene(scene);\n        primaryStage.show();\n    }\n}</code></pre>\n<p> </p>\n\n<p><a href=\"https://qm.qq.com/q/IEiJvZuzei\" target=\"_blank\" rel=\"noopener noreferrer\">javafx学习交流群</a></p>",
+            "image": "https://iammmmmmm.github.io/blog/media/posts/9/Shao-Ye-Jiu-Deng-Ni-LiaojavaFX.png",
+            "author": {
+                "name": "iam"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-07-27T14:40:40+08:00",
+            "date_modified": "2024-07-27T15:15:11+08:00"
+        },
+        {
             "id": "https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html",
             "url": "https://iammmmmmm.github.io/blog/qi-na-er-ji-guan-de-shi-yong.html",
             "title": "齐纳二极管的简单使用",

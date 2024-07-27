@@ -3,12 +3,96 @@
     <title>iam&#x60;blog</title>
     <link href="https://iammmmmmm.github.io/blog/feed.xml" rel="self" />
     <link href="https://iammmmmmm.github.io/blog" />
-    <updated>2024-07-26T17:04:06+08:00</updated>
+    <updated>2024-07-27T15:15:11+08:00</updated>
     <author>
         <name>ukka</name>
     </author>
     <id>https://iammmmmmm.github.io/blog</id>
 
+    <entry>
+        <title>JavaFx从入门到入土_1</title>
+        <author>
+            <name>iam</name>
+        </author>
+        <link href="https://iammmmmmm.github.io/blog/javafxjiao-cheng.html"/>
+        <id>https://iammmmmmm.github.io/blog/javafxjiao-cheng.html</id>
+        <media:content url="https://iammmmmmm.github.io/blog/media/posts/9/Shao-Ye-Jiu-Deng-Ni-LiaojavaFX.png" medium="image" />
+
+        <updated>2024-07-27T14:40:40+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://iammmmmmm.github.io/blog/media/posts/9/Shao-Ye-Jiu-Deng-Ni-LiaojavaFX.png" alt="" />
+                    <h4>抽象（abstract）：</h4>
+<p>1.  安装javafx环境 </p>
+<p>2.Hello world</p>
+<h1>入门：</h1>
+<h6>安装javafx环境：</h6>
+<p>安装jdk 8（以后简称j8），自行解决本教程就不浪费字符了。</p>
+<h6>Hello world：</h6>
+<ol>
+<li>打开你的ide（本教程使用的是idea）</li>
+<li>新建项目</li>
+<li>设置好项目路径，记得选j8，使用maven作为构建系统</li>
+<li>在src/main/java下新建类Helloworld</li>
+<li>复制下面的代码到新建的类里然后执行（不用研究每一行是干啥的只要不报错能运行就行）：</li>
+</ol>
+<pre class="language-java"><code>public class helloWorld extends Application {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+    @Override
+    public void start(Stage primaryStage) {
+        StackPane root = new StackPane();
+        Button btn = new Button("Hello World");
+        root.getChildren().add(btn);
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+}</code></pre>
+<p> </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://iammmmmmm.github.io/blog/media/posts/9/Shao-Ye-Jiu-Deng-Ni-LiaojavaFX.png" class="type:primaryImage" alt="" /></p>
+                <h4>抽象（abstract）：</h4>
+<p>1.  安装javafx环境 </p>
+<p>2.Hello world</p>
+<h1>入门：</h1>
+<h6>安装javafx环境：</h6>
+<p>安装jdk 8（以后简称j8），自行解决本教程就不浪费字符了。</p>
+<h6>Hello world：</h6>
+<ol>
+<li>打开你的ide（本教程使用的是idea）</li>
+<li>新建项目</li>
+<li>设置好项目路径，记得选j8，使用maven作为构建系统</li>
+<li>在src/main/java下新建类Helloworld</li>
+<li>复制下面的代码到新建的类里然后执行（不用研究每一行是干啥的只要不报错能运行就行）：</li>
+</ol>
+<pre class="language-java"><code>public class helloWorld extends Application {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+    @Override
+    public void start(Stage primaryStage) {
+        StackPane root = new StackPane();
+        Button btn = new Button("Hello World");
+        root.getChildren().add(btn);
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+}</code></pre>
+<p> </p>
+
+<p><a href="https://qm.qq.com/q/IEiJvZuzei" target="_blank" rel="noopener noreferrer">javafx学习交流群</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>齐纳二极管的简单使用</title>
         <author>
