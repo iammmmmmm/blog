@@ -3,7 +3,7 @@
     <title>iam&#x60;blog</title>
     <link href="https://iammmmmmm.github.io/blog/feed.xml" rel="self" />
     <link href="https://iammmmmmm.github.io/blog" />
-    <updated>2024-07-27T15:15:11+08:00</updated>
+    <updated>2024-07-27T15:23:29+08:00</updated>
     <author>
         <name>ukka</name>
     </author>
@@ -17,6 +17,7 @@
         <link href="https://iammmmmmm.github.io/blog/javafxjiao-cheng.html"/>
         <id>https://iammmmmmm.github.io/blog/javafxjiao-cheng.html</id>
         <media:content url="https://iammmmmmm.github.io/blog/media/posts/9/Shao-Ye-Jiu-Deng-Ni-LiaojavaFX.png" medium="image" />
+            <category term="javafx"/>
 
         <updated>2024-07-27T14:40:40+08:00</updated>
             <summary>
