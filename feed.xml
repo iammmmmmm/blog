@@ -3,7 +3,7 @@
     <title>iam&#x60;blog</title>
     <link href="https://iammmmmmm.github.io/blog/feed.xml" rel="self" />
     <link href="https://iammmmmmm.github.io/blog" />
-    <updated>2024-07-28T19:46:28+08:00</updated>
+    <updated>2024-07-28T20:00:36+08:00</updated>
     <author>
         <name>ukka</name>
     </author>
@@ -23,7 +23,12 @@
             <summary>
                 <![CDATA[
                         <img src="https://iammmmmmm.github.io/blog/media/posts/10/Hou-Zi-Reng-Shou-Ji-Javafx.gif" alt="" />
-                    前言 经过教程一，相信您的javafx水平获得了质的飞跃，所以从本篇教程开始，我将带着您完成一个功能完备的，跨平台的局域网内剪切板同步软件。 当然，为了避免您产生不必要的困惑，在开始之前希望您可以阅读一下我写的另一个东西：我写的另一个东西（https://reurl.cc/EjXA3g） 这是备用的访问链接 当然如果您产生了任何的问题都可以到页面尾部的javafx交流群中提问，群里大佬云集您的问题一定会迎刃而解的。
+                    <h1>前言</h1>
+<p>经过教程一，相信您的javafx水平获得了质的飞跃，所以从本篇教程开始，我将带着您完成一个功能完备的，跨平台的局域网内剪切板同步软件。</p>
+<p>当然，为了避免您产生不必要的困惑，在开始之前希望您可以阅读一下我写的另一个东西：<a href="https://reurl.cc/EjXA3g" target="_blank" rel="noopener noreferrer">我写的另一个东西（https://reurl.cc/EjXA3g）</a><a href="https://github.com/iammmmmmm/Stop-Ask-Questions-The-Stupid-Ways/blob/master/JavaFx%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md"></a></p>
+<p><a href="https://github.com/iammmmmmm/Stop-Ask-Questions-The-Stupid-Ways/blob/master/JavaFx%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md" target="_blank" rel="noopener noreferrer">这是备用的访问链接</a></p>
+<p>当然如果您产生了任何的问题都可以到页面尾部的javafx交流群中提问，群里大佬云集您的问题一定会迎刃而解的。</p>
+
                 ]]>
             </summary>
         <content type="html">
@@ -34,6 +39,8 @@
 <p>当然，为了避免您产生不必要的困惑，在开始之前希望您可以阅读一下我写的另一个东西：<a href="https://reurl.cc/EjXA3g" target="_blank" rel="noopener noreferrer">我写的另一个东西（https://reurl.cc/EjXA3g）</a><a href="https://github.com/iammmmmmm/Stop-Ask-Questions-The-Stupid-Ways/blob/master/JavaFx%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md"></a></p>
 <p><a href="https://github.com/iammmmmmm/Stop-Ask-Questions-The-Stupid-Ways/blob/master/JavaFx%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md" target="_blank" rel="noopener noreferrer">这是备用的访问链接</a></p>
 <p>当然如果您产生了任何的问题都可以到页面尾部的javafx交流群中提问，群里大佬云集您的问题一定会迎刃而解的。</p>
+
+<p><span style="text-decoration: underline;"><strong><span style="text-decoration: line-through;">（群里大佬云集一定会把您培养成色胚头子的）</span></strong></span></p>
             ]]>
         </content>
     </entry>
