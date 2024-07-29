@@ -5,9 +5,9 @@ import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
     lang: "zh-CN",
-    title: "iam`s blog",
+    title: "iam`s blog  ",
     description: "a Blog",
-    base: "/blog",
+    base: "/",
     host: "0.0.0.0",
     port: 8080,
     head: [["link", { rel: "icon", href: "" }]],
@@ -16,7 +16,7 @@ export default defineUserConfig({
         style: "@vuepress-reco/style-default",
         author: "iam",
         repo: 'iammmmmmm/blog',
-        authorAvatar: "",
+       // authorAvatar: "https://.com",
         docsRepo: "https://github.com/iammmmmmm/blog",
         docsBranch: "master",
         lastUpdatedText: "",
