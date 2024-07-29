@@ -7,7 +7,7 @@ export default defineUserConfig({
     lang: "zh-CN",
     title: "iam`s blog  ",
     description: "a Blog",
-    base: "/",
+    base: "/blog",
     host: "0.0.0.0",
     port: 8080,
     head: [["link", { rel: "icon", href: "" }]],
