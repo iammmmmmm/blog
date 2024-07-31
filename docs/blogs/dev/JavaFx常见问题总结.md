@@ -3,8 +3,8 @@ title: JavaFx 常见问题总结
 date: 2024.07.29
 tags: 
  - JavaFx
-cattegories:
- -dev
+categories:
+ - dev
 ---
 # JavaFx 常见问题总结
 由我问我我我整理
@@ -105,7 +105,7 @@ https://foojay.io/
 https://www.ljjyy.com/archives/2019/08/100573.html#Libraries-Tools-and-Projects%EF%BC%88%E7%B1%BB%E5%BA%93%EF%BC%8C%E5%B7%A5%E5%85%B7%E5%92%8C%E9%A1%B9%E7%9B%AE%EF%BC%89
 
 modeinfo.java示例：
----
+```java
      module your.module.name {
     // 导出模块中的包给其他模块使用
     exports com.example.yourpackage;
@@ -117,4 +117,4 @@ modeinfo.java示例：
     requires javafx.controls;
     requires javafx.fxml;
     }
----
+````
