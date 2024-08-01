@@ -2,7 +2,7 @@
 title: JavaFx从入门到入土A2
 date: 2024/7/31
 tags:
-  - Javafx
+  - JavaFx
 categories:
   - dev
 ---
