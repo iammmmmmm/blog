@@ -35,4 +35,4 @@ public class helloWorld extends Application {
     }
 }
 ```
- ![javafx helloWorld](../assets/javafx_helloWorld.png)
+ ![javafx helloWorld](../assets/javafx从入门到入土1/javafx_helloWorld.png)

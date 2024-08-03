@@ -48,12 +48,12 @@ categories:
 
 ## 好了好了，不开玩笑了，现在就以SynClipboard为例开始我们的开发之旅吧！
 
-![Syn主界面](../assets/img.png)
+![Syn主界面](../assets/javafx从入门到入土A2/img.png)
 
 ### 看看SynClipboard的主界面，是不是很漂亮？所以接下来A2带着您一起开发一个漂亮的主界面！
 ### 首先是分析
 
-![Syn主界面分析](../assets/img_1.png)
+![Syn主界面分析](../assets/javafx从入门到入土A2/img_1.png)
 
 一共四部分，分别是标题栏，菜单栏，内容区域，可折叠菜单选项，只有四部分。一点也不复杂不是吗¯\_(ツ)_/¯？
 ##  开始编程！
@@ -63,32 +63,32 @@ categories:
 3. 选择maven 以及您的GraalVM（17 Gluon构建版本）
 4. 创建git仓库选项建议您选上
 5. 填写其它信息，然后点击完成
-![新建结果示例](../assets/img_9.png)
+![新建结果示例](../assets/javafx从入门到入土A2/img_9.png)
 6. 完成创建后大抵这个样子（本教程使用IDEA，忽略背景图）
 7. 点一下运行，这一步的目的是补全maven依赖，请耐心等待，我建议您在执行这一步前设置好maven镜像源或代理保证网络畅通，以避免出现等得人都谢了。
 8. 如果一起没有问题您将看到如下界面
-![运行结果示例](../assets/img_10.png)
+![运行结果示例](../assets/javafx从入门到入土A2/img_10.png)
 ### 2. 修改标题栏
 1. 改个标题
    1. 我猜英语LV6的您一定注意到了
-   2. ![img_2.png](../assets/img_2.png)
+   2. ![img_2.png](../assets/javafx从入门到入土A2/img_2.png)
    3. 瞧瞧多么直白的方法名！
    4. 接下来让我们起个好看的标题名吧！
-   5. ![img_3.png](../assets/img_3.png)
+   5. ![img_3.png](../assets/javafx从入门到入土A2/img_3.png)
    6. 是不是很棒！
 2. 改个图标
    1. 嗯嗯，这个图标要怎么改呢？
-   2. ![img_4.png](../assets/img_4.png)
+   2. ![img_4.png](../assets/javafx从入门到入土A2/img_4.png)
    3. 没有setIcon方法？那我们要怎么改？
    4. 这时候我们就要用到万能的Google了！
-   5. ![img_5.png](../assets/img_5.png)
-   6. ![img_6.png](../assets/img_6.png)
+   5. ![img_5.png](../assets/javafx从入门到入土A2/img_5.png)
+   6. ![img_6.png](../assets/javafx从入门到入土A2/img_6.png)
    7. 原来如此！
    8. 让我们设置一个好看的图标吧！
-   9. ![img_7.png](../assets/img_7.png)
+   9. ![img_7.png](../assets/javafx从入门到入土A2/img_7.png)
    10. 首先把图标丢进resource文件然
    11. 然后我们就可以在代码中使用了！
    12. 运行：
-   13. ![img_8.png](../assets/img_8.png)
+   13. ![img_8.png](../assets/javafx从入门到入土A2/img_8.png)
    14. 是不是很棒很棒很棒！
 ## 很好，您现在已经拥有了一个漂亮的标题栏了！休息一下我们A3再见！o(*^▽^*)┛
