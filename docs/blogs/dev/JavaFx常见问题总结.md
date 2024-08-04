@@ -24,6 +24,7 @@ categories:
   * [11. Java FX Packager: Can't build artifact - fx:deploy is not available in this JDK](#11-java-fx-packager-cant-build-artifact---fxdeploy-is-not-available-in-this-jdk)
   * [12. java fx 如何进行本地构建（即如何graalvm打包,生成可执行程序）](#12-java-fx-如何进行本地构建即如何graalvm打包生成可执行程序)
   * [13. javafx在部分linux下无法正常输入中文](#13-javafx在部分linux下无法正常输入中文)
+    * [14. Javafx与Spring或其他框架结合进行native打包](#14-javafx与spring或其他框架结合进行native打包)
 <!-- TOC -->
 访问短链：
 https://reurl.cc/EjXA3g
