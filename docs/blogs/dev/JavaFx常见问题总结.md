@@ -117,6 +117,9 @@ https://reurl.cc/EjXA3g
 4. ~~（土豪专享）去给gluon氪金，让它修好。~~
 
 目前只整理了这些，并不全面，恳请补充，如有问题还请指出！
+### 14. Javafx与Spring或其他框架结合进行native打包
+1. [ 春天（spring）](https://github.com/cnico/GluonWithSpring)
+2. [micronaut](https://github.com/ikaro143/example-micronaut)
 
 附：
 qq群：577791499 ，提问必回前提是别像个傻子一样提问（可以看本仓库里的提问教程），那样只能被嘲笑和无视（虽然但是还是会回答你的(谁让群友那么好呢？)）
